@@ -142,6 +142,13 @@ li {
   transition: all ease 0.5s;
 }
 
+.todo:hover {
+  transform: scale(1.1);
+}
+.todo.opaque:hover {
+  transform: scale(1);
+}
+
 .slide {
   transform: translateX(100px);
   opacity: 0;
