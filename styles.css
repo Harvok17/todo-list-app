@@ -172,7 +172,7 @@ li {
   }
 }
 
-.todo-btn {
+.del-btn {
   height: 25px;
   width: 25px;
   cursor: pointer;
@@ -181,14 +181,14 @@ li {
   font-size: 1rem;
 }
 
-.todo-btn > i {
+.del-btn > i {
   pointer-events: none;
 }
 
-.todo-btn {
+.del-btn {
   align-self: center;
 }
-.todo-btn:hover {
+.del-btn:hover {
   color: white;
 }
 
